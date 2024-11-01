@@ -66,7 +66,8 @@ const firebaseConfig = {
 };
 
 // Initialize Firebase
-firebase.initializeApp(firebaseConfig);
+// firebase.initializeApp(firebaseConfig);
+firebase.Initialize(firebaseConfig);
 if (firebaseConfig.measurementId) firebase.analytics();
 
 new Vue({
